@@ -9,7 +9,9 @@ export default function TopBar() {
             <i class="fa-brands fa-instagram-square"></i>
             <i class="fa-brands fa-pinterest-square"></i>
             </div>
-            <div className="topCenter">c</div>
+            <div className="topCenter">
+                <ul className="topList"></ul>
+            </div>
             <div className="topRight">r</div>
         </div>
     )
