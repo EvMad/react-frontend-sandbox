@@ -18,7 +18,9 @@ export default function TopBar() {
                     <li className="topListItem">LOGOUT</li>
                 </ul>
             </div>
-            <div className="topRight">r</div>
+            <div className="topRight">
+                <img src="" alt="" />
+            </div>
         </div>
     )
 }
