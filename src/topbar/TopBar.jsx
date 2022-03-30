@@ -10,7 +10,13 @@ export default function TopBar() {
             <i class="fa-brands fa-pinterest-square"></i>
             </div>
             <div className="topCenter">
-                <ul className="topList"></ul>
+                <ul className="topList">
+                    <li className="topListItem">HOME</li>
+                    <li className="topListItem">ABOUT</li>
+                    <li className="topListItem">CONACT</li>
+                    <li className="topListItem">WRITE</li>
+                    <li className="topListItem">LOGOUT</li>
+                </ul>
             </div>
             <div className="topRight">r</div>
         </div>
