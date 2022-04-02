@@ -19,7 +19,8 @@ export default function TopBar() {
                 </ul>
             </div>
             <div className="topRight">
-                <img src="./photo-1507525428034-b723cf961d3e.jpg" alt="" />
+                <img className="topImage"
+                src="./photo-1507525428034-b723cf961d3e.jpg" alt="" />
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
