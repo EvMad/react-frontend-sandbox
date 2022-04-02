@@ -19,7 +19,7 @@ export default function TopBar() {
                 </ul>
             </div>
             <div className="topRight">
-                <img src="" alt="" />
+                <img src="./photo-1507525428034-b723cf961d3e.jpg" alt="" />
             </div>
         </div>
     )
