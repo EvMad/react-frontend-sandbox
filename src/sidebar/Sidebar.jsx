@@ -5,7 +5,7 @@ export default function Sidebar() {
         <div className="sidebar">
             <div className="sidebarItem">
                 <span className="sidebarTitle">ABOUT ME</span>
-                <img src="" alt=""></img>
+                <img src="istockphoto-1227039338-170667a.jpg" alt=""></img>
                 <p></p>
             </div>
         </div>
