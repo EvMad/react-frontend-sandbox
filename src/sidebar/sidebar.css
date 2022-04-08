@@ -32,3 +32,7 @@
 .sidebar > img {
     margin-top: 15px;
 }
+
+.sidebar > p {
+    padding: 30px;
+}
