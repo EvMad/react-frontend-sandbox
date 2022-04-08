@@ -28,3 +28,7 @@
     line-height: 20px;
     text-align: center;
 }
+
+.sidebar > img {
+    margin-top: 15px;
+}
