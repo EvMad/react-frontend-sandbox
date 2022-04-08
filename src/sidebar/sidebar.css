@@ -29,10 +29,10 @@
     text-align: center;
 }
 
-.sidebar > img {
+.sidebarItem > img {
     margin-top: 15px;
 }
 
-.sidebar > p {
+.sidebarItem > p {
     padding: 30px;
 }
