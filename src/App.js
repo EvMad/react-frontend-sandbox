@@ -1,5 +1,5 @@
 import TopBar from "./components/topbar/TopBar";
-import Single from "./components/single/Single";
+import Single from "./pages/single/Single";
 
 
 function App() {
