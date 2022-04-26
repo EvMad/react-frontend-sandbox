@@ -30,4 +30,12 @@
     font-family: 'Joesfin Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postDate {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
 }
