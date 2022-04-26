@@ -1,9 +1,12 @@
-import "./single.css"
+import "./single.css";
+import Sidebar from "../../components/sidebar?Sidebar";
 
 export default function Single() {
     return (
-        <div>
-            
+        <div className="single">
+            {/* post */}
+            <Sidebar/>
+
         </div>
     )
 }
