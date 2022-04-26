@@ -50,4 +50,5 @@
     margin-top: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: -webkit-box;
 }
