@@ -10,6 +10,7 @@ export default function Post() {
                     <span className="postCat">Music</span>
                     <span className="postCat">Life</span>
                 </div>
+                <span className="postTitle"></span>
             </div>
         </div>
     )
