@@ -18,5 +18,10 @@
     text-align: center;
     margin: 10px;
     font-family: 'Lora', serif;
-    font-size: 20px;
+    font-size: 28px;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 16px;
 }
