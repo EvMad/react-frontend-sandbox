@@ -7,6 +7,7 @@ export default function SinglePost() {
                 <img src="istockphoto-1179480831-170667a.jpg" alt="fishing net" className="singlePostImg">
 
                 </img>
+                <h1 className="singlePostTitle"></h1>
             </div>
         </div>
     )
