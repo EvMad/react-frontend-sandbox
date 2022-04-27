@@ -11,7 +11,7 @@ export default function SinglePost() {
                     Ut enim ad minima veniam 
                     <div className="singlePostEdit">
                     <i className="singlePostIcon fa-solid fa-pen-to-square"></i>
-                    <i className="singlePostIcon fa-solid fa-circle-trash"></i>
+                    <i className="singlePostIcon fa-solid fa-trash-can"></i>
                     </div>
                 </h1>
                 <div className="singlePostInfo">
