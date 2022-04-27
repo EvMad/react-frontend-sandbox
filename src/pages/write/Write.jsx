@@ -9,8 +9,11 @@ export default function Write() {
                     <label htmlFor="fileInput">
                     <i class="fa-solid fa-plus"></i>
                     </label>
-                    <input type="file" id="fileInput" />
-                    <input type="text" placeholder="Title" />
+                    <input type="file" id="fileInput" style={{display:"none"}} />
+                    <input type="text" placeholder="Title" className="writeInput" autoFocus={true} />
+                </div>
+                <div className="writeFormGroup">
+                    <textarea placeholder="Tell your story..."></textarea>
                 </div>
             </form>
         </div>
