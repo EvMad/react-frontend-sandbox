@@ -10,10 +10,13 @@ export default function SinglePost() {
                 <h1 className="singlePostTitle">
                     Ut enim ad minima veniam 
                     <div className="singlePostEdit">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                    <i class="fa-solid fa-circle-trash"></i>
+                    <i className="singlePostIcon fa-solid fa-pen-to-square"></i>
+                    <i className="singlePostIcon fa-solid fa-circle-trash"></i>
                     </div>
                 </h1>
+                <div className="singlePostInfo">
+                    <span>Author: <b>Ishmael</b></span>
+                </div>
             </div>
         </div>
     )
