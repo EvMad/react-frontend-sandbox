@@ -4,6 +4,7 @@ import "./write.css";
 export default function Write() {
     return (
         <div className="write">
+            <img className="writeImg" src="istockphoto-946355244-170667a.jpg" alt="whale watching"></img>
             <form className="writeForm">
                 <div className="writeFormGroup">
                     <label htmlFor="fileInput">

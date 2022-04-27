@@ -3,7 +3,7 @@
 }
 
 .writeForm {
-
+    position: relative;
 }
 
 .writeFormGroup {
@@ -42,4 +42,14 @@
 
 .writeSubmit {
     position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+
 }
