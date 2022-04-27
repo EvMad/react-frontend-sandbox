@@ -32,5 +32,15 @@
 }
 
 .singlePostIcon:first-child {
-    color: wheat;
+    color: teal;
+}
+
+.singlePostIcon:last-child {
+    color: tomato;
+}
+
+.singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
