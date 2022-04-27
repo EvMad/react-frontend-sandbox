@@ -28,4 +28,18 @@
 .writeInput {
     font-size: 30px;
     border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.writeInput:focus {
+    outline: none;
+}
+
+.writeText {
+    font-size: 20px;
+}
+
+.writeSubmit {
+    position: absolute;
 }
