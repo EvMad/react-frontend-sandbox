@@ -9,6 +9,9 @@ export default function Settings() {
                     <span className="settingsUpdateTitle">Update Your Account</span>
                     <span className="settingsDeleteTitle">Delete Your Account</span>
                 </div>
+                <form className="settingsForm">
+                    <label>Profile Picture</label>
+                </form>
                 <Sidebar/>
             </div>
         </div>
