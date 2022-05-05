@@ -6,7 +6,8 @@ export default function Settings() {
         <div className="settings">
             <div className="settingsWrapper">
                 <div className="settingsTitle">
-                    <span className="settingsUpdateTitle"></span>
+                    <span className="settingsUpdateTitle">Update Your Account</span>
+                    <span className="settingsDeleteTitle">Delete Your Account</span>
                 </div>
                 <Sidebar/>
             </div>
