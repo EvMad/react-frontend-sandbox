@@ -1,6 +1,6 @@
-import "./setting.css";
+import "./settings.css";
 
-export default function Setting() {
+export default function Settings() {
     return (
         <div className="settings">
 
