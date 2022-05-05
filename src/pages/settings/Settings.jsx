@@ -11,6 +11,9 @@ export default function Settings() {
                 </div>
                 <form className="settingsForm">
                     <label>Profile Picture</label>
+                    <div className="settingsPP">
+                        <img src="./photo-1507525428034-b723cf961d3e.jpg" alt=""></img>
+                    </div>
                 </form>
                 <Sidebar/>
             </div>
