@@ -13,6 +13,9 @@ export default function Settings() {
                     <label>Profile Picture</label>
                     <div className="settingsPP">
                         <img src="./photo-1507525428034-b723cf961d3e.jpg" alt=""></img>
+                        <label htmlFor="fileInput">
+                            <i className="settingsPPIcon fa-user-circle"></i>
+                        </label>
                     </div>
                 </form>
                 <Sidebar/>
