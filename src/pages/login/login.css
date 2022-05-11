@@ -2,6 +2,7 @@
     height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -17,4 +18,19 @@
 
 .loginForm > label {
     margin: 10px 0;
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
