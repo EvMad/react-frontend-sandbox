@@ -24,6 +24,7 @@ export default function Settings() {
                     <input type="email" placeholder="User@user.com" />
                     <label>Password</label>
                     <input type="password" />
+                    <button className="settingsSubmit">Update</button>
                 </form>
                 <Sidebar/>
             </div>
