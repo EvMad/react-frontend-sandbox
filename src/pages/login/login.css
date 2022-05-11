@@ -4,3 +4,13 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.loginTitle {
+    font-size: 50px;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
