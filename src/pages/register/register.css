@@ -4,10 +4,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(
+    background:  url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Focean-wave&psig=AOvVaw3IC4zJH-6mDuSjnpsZN2FA&ust=1652393356700000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMCPlo-72PcCFQAAAAAdAAAAABAI"),
+        linear-gradient(
         rgba(255, 255, 255, 0.5), 
         rgba(255, 255, 255, 0.5));
-            
+       
+       
         
         background-size: cover;
 }
