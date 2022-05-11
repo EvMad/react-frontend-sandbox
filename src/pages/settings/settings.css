@@ -29,3 +29,9 @@
     display: flex;
     flex-direction: column;
 }
+
+.settingsPP {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
