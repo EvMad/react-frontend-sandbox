@@ -18,3 +18,9 @@
     margin-bottom: 20px;
     color: lightcoral;
 }
+
+.settingsDeleteTitle {
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
