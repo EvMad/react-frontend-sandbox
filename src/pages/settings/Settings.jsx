@@ -16,6 +16,7 @@ export default function Settings() {
                         <label htmlFor="fileInput">
                             <i className="settingsPPIcon fa-user-circle"></i>
                         </label>
+                        <input type="file" id="fileInput"></input>
                     </div>
                 </form>
                 <Sidebar/>
