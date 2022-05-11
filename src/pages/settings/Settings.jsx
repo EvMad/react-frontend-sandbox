@@ -14,7 +14,8 @@ export default function Settings() {
                     <div className="settingsPP">
                         <img src="./photo-1507525428034-b723cf961d3e.jpg" alt=""></img>
                         <label htmlFor="fileInput">
-                            <i className="settingsPPIcon fa-user-circle"></i>
+                            <i className="settingsPPIcon fa-solid fa-circle-user"></i>
+                
                         </label>
                         <input type="file" id="fileInput" style={{display: "none"}}></input>
                     </div>
