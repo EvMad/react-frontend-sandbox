@@ -19,6 +19,7 @@ function App() {
   return (
     <Router>
     <TopBar/>
+    <Switch></Switch>
     <Register/>
     </Router>
     
