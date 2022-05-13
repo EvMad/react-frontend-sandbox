@@ -16,15 +16,13 @@ function App() {
     <TopBar/>
 
     <Routes>
-      <Route exact path="/">
-        <Home />
-      </Route>
-      <Route path="/register">
-        <Register />
-      </Route>
-      <Route path="/login">
-        <Login />
-      </Route>
+      <Route exact path="/" element={<Home />}></Route>
+        
+      <Route path="/register" element={<Register />}></Route>
+
+      <Route path="/login" element={<Login />}></Route>
+      
+     
     </Routes>
     
     </BrowserRouter>
