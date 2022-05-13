@@ -31,10 +31,10 @@ export default function TopBar() {
                 src="./photo-1507525428034-b723cf961d3e.jpg" alt="" />
 
                     ) : (
-                        <>
+                        <ul className="topListItem">
                         <Link className="link" to="/login">LOGIN</Link>
                         <Link className="link" to="/register">REGISTER</Link>
-                        </>
+                        </ul>
                         
                     )
                 }
