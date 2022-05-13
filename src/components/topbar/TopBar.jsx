@@ -4,7 +4,7 @@ import './topbar.css'
 export default function TopBar() {
 
     const user = false;
-    
+
     return (
         <div className="top">
             <div className="topLeft">
@@ -23,8 +23,22 @@ export default function TopBar() {
                 </ul>
             </div>
             <div className="topRight">
-                <img className="topImg"
+
+                {
+                    user ? (
+
+                        <img className="topImg"
                 src="./photo-1507525428034-b723cf961d3e.jpg" alt="" />
+
+                    ) : (
+                        <>
+                        <Link className="link" to="/login">LOGIN</Link>
+                        <Link className="link" to="/register">REGISTER</Link>
+                        </>
+                        
+                    )
+                }
+                
                 <i className ="searchIcon fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
