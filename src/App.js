@@ -17,10 +17,10 @@ import {
 
 function App() {
   return (
-    <>
+    <Router>
     <TopBar/>
     <Register/>
-    </>
+    </Router>
     
   );
 }
