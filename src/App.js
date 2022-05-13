@@ -11,6 +11,9 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 
 function App() {
+
+  const user = false;
+
   return (
     <BrowserRouter>
     <TopBar/>
