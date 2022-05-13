@@ -12,8 +12,8 @@ export default function TopBar() {
             </div>
             <div className="topCenter">
                 <ul className="topList">
-                    <li className="topListItem"><Link to="/">HOME</Link></li>
-                    <li className="topListItem"><Link to="/">HOME</Link></li>
+                    <li className="topListItem"><Link className="link" to="/">HOME</Link></li>
+                    <li className="topListItem"><Link className="link" to="/">HOME</Link></li>
                     <li className="topListItem">CONTACT</li>
                     <li className="topListItem">WRITE</li>
                     <li className="topListItem">LOGOUT</li>
