@@ -12,7 +12,7 @@ export default function Login() {
                 <input type="password" className="loginInput" placeholder="Enter your password..."></input>
                 <button className="loginButton">Login</button>
             </form>
-            <button className="loginRegisterButton"><Link to="/register">Register</Link></button>
+            <button className="loginRegisterButton"><Link to="/register" className="link">Register</Link></button>
 
         </div>
     )
