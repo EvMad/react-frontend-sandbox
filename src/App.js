@@ -27,7 +27,7 @@ function App() {
 
       <Route path="/post/post:id" element={<Single />}></Route>
 
-      <Route path="/write" element={<Write />}></Route>
+      <Route path="/write" element={ user ? <Write /> : <Register /> }></Route>
 
       <Route path="/settings" element={<Settings />}></Route>
       
