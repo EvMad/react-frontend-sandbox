@@ -6,21 +6,23 @@ import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
 function App() {
   return (
     <Router>
     <TopBar/>
-    <Switch></Switch>
-    <Register/>
+    <Switch>
+      <Route path="/">
+        <Home />
+      </Route>
+      <Route path="/register">
+        <Register />
+      </Route>
+    </Switch>
+    
     </Router>
     
   );
