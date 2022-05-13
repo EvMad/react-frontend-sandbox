@@ -7,14 +7,15 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
     <TopBar/>
-    <Switch>
+
+    <Routes>
       <Route exact path="/">
         <Home />
       </Route>
@@ -24,9 +25,9 @@ function App() {
       <Route path="/login">
         <Login />
       </Route>
-    </Switch>
+    </Routes>
     
-    </Router>
+    </BrowserRouter>
     
   );
 }
