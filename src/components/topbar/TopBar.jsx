@@ -28,7 +28,7 @@ export default function TopBar() {
                     user ? (
 
                         <img className="topImg"
-                src="./photo-1507525428034-b723cf961d3e.jpg" alt="" />
+                src="images/photo-1507525428034-b723cf961d3e.jpg" alt="" />
 
                     ) : (
                         <ul className="topList">

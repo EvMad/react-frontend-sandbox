@@ -3,7 +3,7 @@ import "./post.css"
 export default function Post() {
     return (
         <div className="post">
-            <img className="postImg" src="istockphoto-1330878489-170667a.jpg" alt="fishing boat">
+            <img className="postImg" src="images/istockphoto-1330878489-170667a.jpg" alt="fishing boat">
             </img>
             <div className="postInfo">
                 <div className="postCats">
