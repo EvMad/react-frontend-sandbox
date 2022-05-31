@@ -5,3 +5,5 @@ Blog front-end mockup created using React.js, React Router, Node.js, Font Awesom
 ## SCREENSHOTS
 
 ![mobile_screenshot](./public/images/Screenshot%20(90).png)
+
+![large_screenshot](./public/images/Screenshot%20(91).png)
