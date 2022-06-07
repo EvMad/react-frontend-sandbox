@@ -15,7 +15,7 @@ const renderImage = () => {
         { image: '../../../images/istockphoto-1227039338-170667a.jpg' },
         { image: '../../../images/istockphoto-1289259892-170667a.jpg' },
         { image: '../../../images/photo-1560260240-c6ef90a163a4.jpg' },
-        { image: '../../../images/photo-1507525428034-b7231cf961d3e.jpg' },
+        { image: '../../../images/photo-1507525428034-b723cf961d3e.jpg' },
         { image: '../../../images/photo-1616197125460-587e9c9313b7.jpg' }
         
     ];
