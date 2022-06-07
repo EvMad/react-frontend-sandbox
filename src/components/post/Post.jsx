@@ -1,10 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { render } from "react-dom";
 import "./post.css"
 
 // random image 
 
-// const [randomImage, setRandomImage] = useState('');
 
 const renderImage = () => {
 
@@ -25,9 +24,6 @@ const renderImage = () => {
     
 };
 
-// useEffect(() => {
-//     setRandomImage(renderImage);
-// })
 
 
 export default function Post() {
