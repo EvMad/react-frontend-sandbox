@@ -1,9 +1,39 @@
+import { useEffect, useState } from "react";
+import { render } from "react-dom";
 import "./post.css"
+
+// random image 
+
+// const [randomImage, setRandomImage] = useState('');
+
+const renderImage = () => {
+
+    const myImages = [
+        { image: '../../../images/istockphoto-1330878489-170667a.jpg' },
+        { image: '../../../images/istockphoto-946355244-170667a.jpg' },
+        { image: '../../../images/istockphoto-1179480831-170667a.jpg' },
+        { image: '../../../images/istockphoto-1227039338-170667a.jpg' },
+        { image: '../../../images/istockphoto-1289259892-170667a.jpg' },
+        { image: '../../../images/photo-1560260240-c6ef90a163a4.jpg' },
+        { image: '../../../images/photo-1507525428034-b7231cf961d3e.jpg' },
+        { image: '../../../images/photo-1616197125460-587e9c9313b7.jpg' }
+        
+    ];
+
+    const randomImageIndex = Math.floor(Math.random() * Math.floor(8));
+    return myImages[randomImageIndex].image;
+    
+};
+
+// useEffect(() => {
+//     setRandomImage(renderImage);
+// })
+
 
 export default function Post() {
     return (
         <div className="post">
-            <img className="postImg" src="images/istockphoto-1330878489-170667a.jpg" alt="fishing boat">
+            <img className="postImg" src={renderImage()} alt="nautical">
             </img>
             <div className="postInfo">
                 <div className="postCats">
